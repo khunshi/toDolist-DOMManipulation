@@ -1,7 +1,6 @@
 const ulElement = document.querySelector("ul");
 const inputElement = document.querySelector("input");
 const buttonElement = document.querySelector("form button")
-const tasks = []
 
 buttonElement.onclick = ev => {
   ev.preventDefault();
