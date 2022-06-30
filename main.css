@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Raleway:wght@300&family=Roboto:wght@300&family=Work+Sans:wght@200&display=swap');
+
+
+* {
+  font-family: 'Inter', sans-serif;
+  color: #333;
+}
+
+
+body {
+  background-color: #edf0f2;
+  margin: 0;
+  padding: 0;
+}
+
+
+h1 {}
+
+
+h2 {
+  text-transform: uppercase;
+}
+
+
+.app {
+  padding: 15px;
+}
+
+
+input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 200px;
+}
+
+input:focus {
+  outline-color: hotpink;
+}
+
+form button {
+  background-color: #43bc70;
+  padding: 8px 12px;
+  font-size: 16px;
+  color: white;
+  border: 0px;
+  border-radius: 3px;
+}
+
+form button:active {
+  background-color: green;
+  transition: 50ms;
+}
+
+.tarefas button {
+  background: transparent;
+  font-size: 16px;
+  border: 0;
+  color: red;
+  text-transform: uppercase;
+
+}
